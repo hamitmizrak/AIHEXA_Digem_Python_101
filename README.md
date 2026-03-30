@@ -40,7 +40,7 @@
 git init 
 git add .
 git commit -m "message"
-git clone  https://github.com/hamitmizrak/python_techcareer_2025_101_1.git 
+git clone  https://github.com/hamitmizrak/AIHEXA_Digem_Python_101
 ```
 
 ## Python Common Rules
