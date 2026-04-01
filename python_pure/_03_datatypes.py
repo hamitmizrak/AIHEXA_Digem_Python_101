@@ -9,6 +9,10 @@ number=-10
 print(number)
 print(type(number))
 
+number=-4.56
+print(number)
+print(type(number))
+
 # Const (Sabit)
 PI_NUMBER =3.14159
 print(PI_NUMBER)
