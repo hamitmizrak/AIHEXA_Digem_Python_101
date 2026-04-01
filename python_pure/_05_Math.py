@@ -5,7 +5,6 @@ from random import randint, uniform
 print("PI: ", math.pi)
 print("E: ", math.e)
 
-
 print("Karekök: ", math.sqrt(16))
 print("üslü: ", math.pow(2,5))
 print("faktöriyel: ", math.factorial(4))
