@@ -2,7 +2,7 @@ SORU-1 KISA bir Python hatırlatması
 
 -------------------------------------------------------------------
 -------------------------------------------------------------------
-SORU-1 çok detaylı olacak şekilde sana vereceklerimi yazmanı istiyorum, "AI–ML–DL farkları, kullanım senaryoları nelerdir"
+SORU-1  "AI–ML–DL farkları, kullanım senaryoları nelerdir"
 
 AI, ML ve DL kavramlarını birbirinden net biçimde ayıracağım; sonra aralarındaki ilişkiyi, temel farkları, hangi durumda hangisinin kullanıldığını, gerçek hayat senaryolarını, avantaj–dezavantajlarını ve sık yapılan kavram hatalar:
 
