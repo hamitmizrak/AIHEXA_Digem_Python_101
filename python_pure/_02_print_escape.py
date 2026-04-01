@@ -1,9 +1,3 @@
-# Single comment
-
-
-"""
-Multiple Comment
-"""
 
 # ==========================================
 # PRINT
