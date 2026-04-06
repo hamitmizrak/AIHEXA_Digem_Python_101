@@ -17,7 +17,9 @@ print(f"son eleman ==> {homojen_data[len(homojen_data) - 1]}")
 
 
 print("## slicing ##############################################")
-print(homojen_data[0:4]) # 0<=NUMBER<=4-1
-print(homojen_data[:4])  # 0<=NUMBER<=4-1
-print(homojen_data[1:4]) # 1<=NUMBER<=4-1
-print(homojen_data[::3]) # 0 - 3 - 6 - 9
+print(homojen_data[0:4])  # 0<=NUMBER<=4-1
+print(homojen_data[:4])   # 0<=NUMBER<=4-1
+print(homojen_data[1:4])  # 1<=NUMBER<=4-1
+print(homojen_data[::3])  # 0 - 3 - 6 - 9
+print(homojen_data[1::3]) # 1 - 4 - 7 - 10
+
