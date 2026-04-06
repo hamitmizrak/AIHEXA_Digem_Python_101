@@ -1,7 +1,6 @@
 # Heterojen List
 heterojen_data = ["Mehmet", 10, 30, 40, 50, 60, 70, 80, True,14.53]
 
-
 # Homojen List
 homojen_data = [20, 10, 30, 40, 50, 60, 70, 80, 90]
 print(homojen_data)
