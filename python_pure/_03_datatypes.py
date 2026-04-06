@@ -1,3 +1,4 @@
+# Python Dynamics Types
 # Number
 number=10
 print(number)
