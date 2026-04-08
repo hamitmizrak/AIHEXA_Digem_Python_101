@@ -1,79 +1,90 @@
-# Function
 
-##################################################
-# 1- parametresiz returnsuz
+#################################################################
+#### Function ###################################################
+# 1- Parametresiz Returnsuz Function
 def hesap_topla1():
     """
-    parametresiz returnsuz toplam
+    parametresiz Returnsuz function
     """
-    sayi1=20
-    sayi2=30
+    sayi1=10
+    sayi2=20
     sayi3=sayi1+sayi2
-    print(f"Toplam: {sayi3}")
+    print(f"toplam1 :{sayi3}")
 
-# Functional calling
+# Function Calling
 hesap_topla1()
 
-##################################################
-# 2- parametreli returnsuz
+#################################################################
+
+# 2- Parametreli Returnsuz Function
 def hesap_topla2(sayi1,sayi2):
     """
-    parametreli returnsuz toplam
+    parametreli Returnsuz function
     """
     sayi3=sayi1+sayi2
-    print(f"Toplam: {sayi3}")
+    print(f"toplam2 :{sayi3}")
 
-# Functional calling
+# Function Calling
 hesap_topla2(10,20)
-print()
 
-
-##################################################
-# Default
-def default_toplam(sayi1,sayi2=90):
+#################################################################
+# Default değerler
+def hesap_topla222(sayi1,sayi2=90):
     """
-    parametreli returnsuz toplam
+    parametreli Returnsuz function
     """
     sayi3=sayi1+sayi2
-    print(f"Toplam: {sayi3}")
+    print(f"toplam222 :{sayi3}")
 
-# Functional calling
-default_toplam(10)
-default_toplam(10,20)
-print()
+# Function Calling
+# hesap_topla3(10)  # default değer çalışır
+hesap_topla222(10,20)
 
-##################################################
-# 3- parametresiz returnlu
+
+#######################################################
+# 3- Parametresiz Returnlu Function
 def hesap_topla3():
     """
-    parametresiz returnlu toplam
+    parametresiz Returnlu function
     """
-    sayi1=100
-    sayi2=30
+    sayi1=10
+    sayi2=20
     sayi3=sayi1+sayi2
     return sayi3
 
-# Functional calling
-result=hesap_topla3()
-print(f"Toplam: {result}")
-print()
+# Function Calling
+result3=hesap_topla3()
+print(f"toplam3: {result3}")
 
 
-
-##################################################
-# 4- parametreli,default returnlu
-def hesap_topla4(sayi1=20,sayi2=90):
+#######################################################
+# 4- Parametreli Returnlu Function
+def hesap_topla4(sayi1=40,sayi2=60):
     """
-    parametresiz returnlu toplam
+    parametreli Returnlu, default değerli function
+    :return:
     """
     sayi3=sayi1+sayi2
     return sayi3
 
-# Functional calling
-result2=hesap_topla4()
-print(f"Toplam: {result2}")
+# Function Calling
+result4=hesap_topla4(10,20)
+print(f"toplam4: {result4}")
 
-result2=hesap_topla4(40,15)
-print(f"Toplam: {result2}")
 
-print()
+#######################################################
+# 5- Global/local variable
+global_variable=99
+
+def hesap_topla5():
+    global global_variable
+    print(global_variable)
+
+    local_variable=11
+    print(local_variable)
+
+# Function Calling
+hesap_topla5()
+
+print(f"{global_variable}")
+# print(f"{local_variable}")
