@@ -6,6 +6,14 @@ my_list1=[1,2,9,3,"Malatya",True,14.53,"Malatya"]
 
 print(f"List --> {type(my_list1)}")
 print(f"List --> {my_list1}")
+
+# İlk elemanı göster
+print(f"ilk eleman ==> {my_list1[0]}")
+
+# İlk elemanı değiştirme
+my_list1[0]=44
+print(f"ilk eleman ==> {my_list1[0]}")
+
 print()
 
 
@@ -16,6 +24,13 @@ print()
 my_tupple1= (1,2,9,3,"Malatya",True,14.53,"Malatya")
 print(f"Tupple --> {type(my_tupple1)}")
 print(f"Tupple --> {my_tupple1}")
+
+# İlk elemanı göster
+print(f"ilk eleman ==> {my_tupple1[0]}")
+
+# İlk elemanı değiştirme
+my_list1[0]=44 # Tupple eleman değiştirmezsiniz
+print(f"ilk eleman ==> {my_tupple1[0]}")
 
 
 ########################################################################
