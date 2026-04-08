@@ -2,7 +2,7 @@
 #### Data Type : Tuple      ##############################################################
 # Python'da tuple (demet), birden fazla öğeyi sıralı bir şekilde saklayabilen, ancak immutable (değiştirilemez) bir veri türüdür.
 # Listelere benzer şekilde, tuple da öğeleri sıralı bir şekilde saklar ve indekslenebilir.
-# Ancak list ile  tuple'ın en büyük farkı, oluşturulduktan sonra içeriğinin değiştirilemez olmasıdır.
+# Ancak list ile  tuple'ın en büyük farkı, oluşturulduktan sonra içeriğinin değiştirilemez(immutable) olmasıdır.
 
 # Boş bir tuple
 empty_tuple = ()
