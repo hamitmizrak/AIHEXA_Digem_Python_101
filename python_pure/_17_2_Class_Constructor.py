@@ -28,7 +28,10 @@ class ArabaConstructor:
 
 
     def set_yil(self,yil):
-        self.yil=yil
+        if yil>=2020:
+            self.yil=yil
+        else:
+            print("2020 yılının altında olan arabalar alınmıyor")
 
     def get_yil(self):
         return self.yil
@@ -39,3 +42,6 @@ class ArabaConstructor:
 
     def get_renk(self):
         return self.renk
+
+araba_ornegi=ArabaConstructor()
+araba_ornegi.bilgileri_goster()
