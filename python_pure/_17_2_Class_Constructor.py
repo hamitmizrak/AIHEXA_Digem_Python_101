@@ -9,7 +9,7 @@ class ArabaConstructor:
 
     # Function name
     def bilgileri_goster(self):
-        print(f"Marka: {self.marka}  model:{self.model} yıl:{self.yil} renk:{self.yil}")
+        print(f"Marka: {self.marka}  model:{self.model} yıl:{self.yil} renk:{self.renk}")
 
 
     # SETTER AND GETTER
@@ -18,7 +18,6 @@ class ArabaConstructor:
 
     def get_marka(self):
         return self.marka
-
 
     def set_model(self,model):
         self.model=model
@@ -43,5 +42,17 @@ class ArabaConstructor:
     def get_renk(self):
         return self.renk
 
-araba_ornegi=ArabaConstructor()
-araba_ornegi.bilgileri_goster()
+# instance
+araba_ornegi1=ArabaConstructor()
+araba_ornegi1.bilgileri_goster()
+print()
+
+
+# instance
+araba_ornegi2=ArabaConstructor()
+araba_ornegi2.set_renk("Beyaz")
+araba_ornegi2.set_marka("Audi")
+araba_ornegi2.set_model("Q serisi")
+#araba_ornegi2.set_yil(2022)
+araba_ornegi2.set_yil(2015)
+araba_ornegi2.bilgileri_goster()
